@@ -1,0 +1,7 @@
+<div [class.background-red]="backgroundColor === 'red'" [class.background-blue]="backgroundColor === 'blue'" [class.background-green]="backgroundColor === 'green'">
+    <p>This is a dynamically styled background!</p>
+  </div>
+  <button (click)="changeBackgroundColor('red')">Change to Red</button>
+  <button (click)="changeBackgroundColor('blue')">Change to Blue</button>
+  <button (click)="changeBackgroundColor('green')">Change to Green</button>
+  
