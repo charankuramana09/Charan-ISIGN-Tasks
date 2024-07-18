@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        .custom-header {
+            background-color: #ccc; 
+            border: 1px solid #000;
+            padding: 10px;
+        }
+        h1{
+      color: brown;
+    }
+    .feature{
+      background-color: #E9ECEF;
+      height: 20px;
+      padding: 30px;
+    }
+    .square{
+      background-color:#E9ECEF;
+      height: 250px;
+      margin: 20px;
+    }
+    .content{
+      margin-top: 190px;
+    }
+    .btn1{
+       width: 150px;
+       margin-top: 10px;
+    }
+    .bag{
+        background-color:#E9ECEF ;
+    }   
+    </style>
+</head>
+<body class="container">
+    <h1>Home Page</h1>
+    <header class="custom-header ">
+        <div class="center">
+            <div class="row align-items-center">
+                <div class="col-sm-2">
+                    <i class="fas fa-square"></i> 
+                    <span>Site Name</span>
+                </div>
+                <div class="col-sm-7 text-center">
+                    <a href="" class="mx-3">Category 1</a>
+                    <a href="" class="mx-3">Category 2</a>
+                    <a href="" class="mx-3">Category 3</a>
+                </div>
+                <div class="col-sm-2 text-end">
+                    <i class="fas fa-search"></i> 
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Cart(0)</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class=" center jumbotron m-3 ">
+        <div class="row container text-white mt-1"></div>
+        <div class="row bag m-4" ><div >
+           <h2>Hero Title</h2></div>
+            <div>Our North American Field Guides provide tips for</div>
+            <div>identifying birds in all of the regions of the United</div>
+            <div>States and Canada.Download any our guides for </div>
+            <div>free now</div>
+            <button type="button" class="shadow btn1 btn btn-outline-dark "><i class="fa-solid fa-download mr-1"></i>Call To Action</button>
+        </div>
+        <div class="row container text-white mt-4"></div>
+        <div class="m-3 jumbotron feature d-flex align-items-center justify-content-center"> 
+            <h5>Feature Message</h5> 
+          </div>
+         <section class="row row-cols-5 d-flex justify-content-between ml-2 mr-2 ">
+            <div class="col square">
+              <div class="d-flex flex-column content">
+                <b class="text-center">Product Title</b>
+              <div class="d-flex justify-content-between">
+                <p>Attributes</p>
+                <p>$00.00</p>
+              </div>
+              </div>
+            </div>
+            <div class="col square">
+            <div class="d-flex flex-column content">
+              <b class="text-center">Product Title</b>
+            <div class="d-flex justify-content-between">
+              <p>Attributes</p>
+              <p>$00.00</p>
+            </div>
+            </div></div>
+            <div class="col square">
+            <div class="d-flex flex-column content">
+              <b class="text-center">Product Title</b>
+            <div class="d-flex justify-content-between">
+              <p>Attributes</p>
+              <p>$00.00</p>
+            </div>
+            </div></div>
+            <div class="col square">
+            <div class="d-flex flex-column content">
+              <b class="text-center">Product Title</b>
+            <div class="d-flex justify-content-between">
+              <p>Attributes</p>
+              <p>$00.00</p>
+            </div>
+            </div></div>
+            <div class="col square">
+            <div class="d-flex flex-column content">
+              <b class="text-center">Product Title</b>
+            <div class="d-flex justify-content-between">
+              <p>Attributes</p>
+              <p>$00.00</p>
+            </div>
+            </div></div>
+            <div class="col square">
+            <div class="d-flex flex-column content">
+              <b class="text-center">Product Title</b>
+            <div class="d-flex justify-content-between">
+              <p>Attributes</p>
+              <p>$00.00</p>
+            </div>
+            </div></div>
+            <div class="col square">
+            <div class="d-flex flex-column content">
+              <b class="text-center">Product Title</b>
+            <div class="d-flex justify-content-between">
+              <p>Attributes</p>
+              <p>$00.00</p>
+            </div>
+            </div></div>
+            <div class="col square">
+            <div class="d-flex flex-column content">
+              <b class="text-center">Product Title</b>
+            <div class="d-flex justify-content-between">
+              <p>Attributes</p>
+              <p>$00.00</p>
+            </div>
+            </div></div>
+          </section>
+    </div>
+    <hr class="border border-dark">
+    <footer class="col-sm-12 d-flex align-items-center mt-3 mb-3">
+        <div class="col-sm-2 d-flex align-items-center flex-column">
+          <b>Site Name</b>
+          <div>
+            <i class="fa-brands fa-cc-visa"></i>
+               <i class="fa-brands fa-cc-mastercard"></i>
+               <i class="fa-brands fa-cc-paypal"></i>
+          </div>
+        </div>
+   
+        <div class="col-sm-7">
+        <a href="">Category X</a> |
+        <a href="">Category Y</a> |
+        <a href="">Category Z</a> 
+        </div>
+        <div class="col-sm-3">
+          <b>Stay in Touch! Join our NewsLetter</b>
+          <div class="d-flex justify-content-between">
+            <input placeholder="Enter Email" id="email">
+            <button type="button" class="btn btn-dark">Subscribe</button>
+          </div>
+        </div>
+     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

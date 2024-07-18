@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            margin: 0; 
+        }
+
+        .container {
+            display: grid;
+            height: 97vh;
+            grid-template-rows: 10%  5% 2% 5% 2% 5% 2% 20% 2% 25% 2% 13% 7% ;
+            grid-template-columns: 5% 70% 30% 5%;
+            
+        }
+        .header {
+    background-color: rgb(158, 170, 216);
+    grid-row: 1/2;
+    grid-column: 1/8;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+    border: 4px solid black;
+    padding: 20px 5px;
+}
+.side-nav {
+            background-color: white;
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            grid-row: 2/2;
+            grid-column: 2/3;
+        }
+        .hr {
+            border: none;
+            border-top: 2px solid black;
+            margin: 10px 0;
+            grid-row: 3/4;
+            grid-column: 2/3;
+        }
+.content{
+    background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            grid-row: 4/4;
+            grid-column: 2/3;
+}
+.hr1 {
+            border: none;
+            border-top: 2px solid black;
+            margin: 10px 0;
+            grid-row: 5/5;
+            grid-column: 2/3;
+        }
+        .content2{
+    background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            grid-row: 6/6;
+            grid-column: 2/3;
+}
+.hr2 {
+            border: none;
+            border-top: 2px solid black; 
+            margin: 10px 0;
+            grid-row: 7/7;
+            grid-column: 2/3; 
+        }
+        .content3 {
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            grid-row: 8/8;
+            grid-column: 2/3;
+            color: black;
+            height: 80px; 
+            width: 375px;
+            position: relative;
+        }
+
+        .textbox {
+            margin: 5px 3px;
+        }
+
+.hr3 {
+            border: none;
+            border-top: 2px solid black;
+            margin: 10px 0;
+            grid-row: 9/9;
+            grid-column: 2/3; 
+        }
+        .content4{
+    background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            grid-row: 10/10;
+            grid-column: 2/3;
+}
+.hr4 {
+            border: none; 
+            border-top: 2px solid black; 
+            margin: 10px 0;
+            grid-row: 11/11;
+            grid-column: 2/3;
+        }
+        .content5{
+    background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            grid-row: 12/12;
+            grid-column: 2/3;
+}
+.hr5 {
+            border: none; 
+            border-top: 2px solid black; 
+            margin: 10px 0;
+            grid-row: 13/13;
+            grid-column: 2/3;
+        }
+        .content6{
+    background-color: white;
+            display: flex;
+            align-items: top;
+            justify-content: left;
+            margin-top: -30px;
+            margin-right: 20px;
+            grid-row: 14/14;
+            grid-column: 2/3;
+}
+.hr6 {
+            border: none; 
+            border-top: 2px solid black; 
+            margin: 10px 0;
+            grid-row: 15/15;
+            grid-column: 2/3;
+        }
+        .content7{
+    background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            grid-row: 4/9;
+            grid-column: 4/3;
+}
+.textbox1 {
+            margin-left: 100px;
+            
+        }
+        .border {
+            border-top: 2px solid black; 
+            margin: 0 0;
+            
+        }
+        .rectangle {
+      width: 20px;
+      height: 100px;
+      background-color: black;
+    }
+    .edit{
+        margin-right: 20px;
+    }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"  >
+            <div class="fa-solid fa-square" class="nav-item" id="header-item1"  ><b>Site Name</b></div>
+           <div> <a href="Category1">Category 1</a>
+            <a href="Category2">Category 2</a>
+            <a href="Category3">Category 3</a>
+        </div>
+           <div> <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p style="margin-top: -18%; margin-left: 50px;"><b>Cart (1)</b> </p>
+        </div>
+        </div>
+        <div class="hr" style="color: white;"></div>
+        <div class="side-nav" >
+        <p>Cat> Customer Information> Shipping Information> Payment Mehtod</p> 
+        </div>
+        <div class="content" >
+            <p><b>Shipping Address</b> 12 Waldo Point Road, Mishauken, NY 11200</p>
+            <a href="edit1" class="edit">Edit </a>
+        </div>
+        <div class="hr1" style="color: white;">
+        </div>
+        <div class="content2" >
+        <p><b>Shipping Method</b> UPS Ground, <b>$2.20</b></p> 
+        <a href="edit2" class="edit">Edit </a>
+
+        </div>
+        <div class="hr2" style="color: white;"></div>
+        <div class="content3">
+            <div>
+            <p><b>Payment Method </b> </p>
+            <input type="number" class="textbox" placeholder="Card number" style="height: 20px; width: 350px;">
+            <input type="text" class="textbox" placeholder="Name on card" style="height: 20px; width: 105px;">
+            <input type="month" class="textbox" placeholder="MM/YY" style="height: 20px; width: 105px;">
+            <input type="number" class="textbox" placeholder="CVV" style="height: 20px; width: 105px;">
+        </div>
+        </div>
+        <div class="hr3" style="color: white;"></div>
+        <div class="content4" >
+            <div>
+                <p><b>Billing Address</b></p>
+                    <input type="radio" name="address" id="address1" > 
+                    <label for="address1">same as shipping address</label>
+                    <div></div>
+                    <input type="radio" name="address" id="address2" > 
+                    <label for="address2">use a different billing address</label>
+                <p>Remember Me</p>
+                <input type="checkbox" name="address" id="address3" > 
+                <label for="address3">save my information for a faster checkout</label>
+            </div>
+        </div>
+        <div class="hr4" style="color: white;"></div>
+        <div class="content5" >
+            <p> Return to Customer Information </p> 
+            <button name="btn1" style="background-color: blue; margin-right:10px;">Complete Order</button>
+        </div>
+        <div class="hr5" ></div>
+                
+                    <div class="content6"  >
+                        <div  class="nav-item" id="header-item1"  ><b>Site Name</b></div>
+                       <div> <a href="Category1">Category 1</a>
+                        <a href="Category2">Category 2</a>
+                        <a href="Category3">Category 3</a>
+                    </div>
+        </div>
+        <div class="content7" >
+            <div></div><p><b>Summary(1 item)</b></p></div>
+        </div>
+    </div>
+</body>
+</html>
